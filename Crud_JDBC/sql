@@ -1,0 +1,16 @@
+CREATE TABLE public.contatos
+(
+  id bigint PRIMARY KEY,
+  nome character varying(255),
+  idade integer,
+  datacadastro date
+)
+
+
+CREATE TABLE public.contatos
+(
+  id SERIAL PRIMARY KEY,
+  nome character varying(255),
+  idade integer,
+  datacadastro date
+)
